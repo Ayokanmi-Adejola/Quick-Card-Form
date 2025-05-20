@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <!-- Card images section -->
+      <div class="card-container">
+        <div class="card-front">
+          <img src="./images/card-logo.svg" alt="Card logo" class="card-logo">
+          <div class="card-number-display">0000 0000 0000 0000</div>
+          <div class="card-info">
+            <span class="card-name-display">Ayokanmi Adejola</span>
+            <span class="card-date-display">00/00</span>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="card-cvc-display">000</div>
+        </div>
+      </div>
+
+      <!-- Form section -->
+      <div class="form-container">
+        <form id="card-form">
+          <div class="form-group">
+            <label for="card-name">Cardholder Name</label>
+            <input type="text" id="card-name" placeholder="e.g. Ayokanmi Adejola" required>
+            <div class="error-message" id="name-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" placeholder="e.g. 1234 5678 9123 0000" maxlength="19" required>
+            <div class="error-message" id="number-error"></div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group expiry-date">
+              <label for="expiry-month">Exp. Date (MM/YY)</label>
+              <div class="expiry-inputs">
+                <div>
+                  <input type="text" id="expiry-month" placeholder="MM" maxlength="2" required>
+                  <div class="error-message" id="month-error"></div>
+                </div>
+                <div>
+                  <input type="text" id="expiry-year" placeholder="YY" maxlength="2" required>
+                  <div class="error-message" id="year-error"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group cvc-group">
+              <label for="card-cvc">CVC</label>
+              <input type="text" id="card-cvc" placeholder="e.g. 123" maxlength="3" required>
+              <div class="error-message" id="cvc-error"></div>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-button">Confirm</button>
+        </form>
+      </div>
+
+      <!-- Completed state -->
+      <div class="completed-state" style="display: none;">
+        <img src="./images/icon-complete.svg" alt="Completed" class="complete-icon">
+        <h2>Thank you!</h2>
+        <p>We've added your card details</p>
+        <button class="continue-button">Continue</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ayokanmi Adejola</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
