@@ -130,4 +130,4 @@ Key skills improved:
 
 ## Author
 
-- Frontend Mentor - [@Ayokanmi-Adejola](https://www.frontendmentor.io/profile/Ayokanmi-Adejola)
+- Frontend Mentor - [@Ayokanmi Adejola](https://www.frontendmentor.io/profile/Ayokanmi-Adejola)
