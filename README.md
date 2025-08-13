@@ -27,7 +27,6 @@ Users should be able to:
 - Completed state after successful form submission
 
 
-## Screenshot
 
 ![Screenshot](preview.jpg)
 
