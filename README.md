@@ -126,7 +126,3 @@ Key skills improved:
 - Optimize performance for slower devices
 - Implement autofocus on the first form field when the page loads
 - Add keyboard navigation support for better accessibility
-
-## Author
-
-- Frontend Mentor - [@Ayokanmi Adejola](https://www.frontendmentor.io/profile/Ayokanmi-Adejola)
