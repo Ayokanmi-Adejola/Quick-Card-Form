@@ -2,7 +2,9 @@
 
 This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-
+| Desktop | Mobile |
+| ------- | ------ |
+| <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/64814388-89bd-4677-a143-9ad39126c97b" /> | <img width="375" height="704" alt="image" src="https://github.com/user-attachments/assets/87bde8eb-0e56-49a6-8434-a09678ce0755" /> |
 
 
 ## Overview
@@ -25,10 +27,6 @@ Users should be able to:
 - Responsive design for mobile, tablet, and desktop views
 - Interactive form elements with hover and focus states
 - Completed state after successful form submission
-
-
-
-![Screenshot](preview.jpg)
 
 
 ## Built with
